@@ -1,4 +1,4 @@
-# Creating Cluster on Prod Environment
+# Creating Cluster on STAGE Environment
 <!--- -->
 
 #### STEP 1 
