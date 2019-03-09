@@ -1,4 +1,4 @@
-# Creating Cluster on DEV Environment
+# Creating Cluster on Dev Environment
 <!--- -->
 
 #### STEP 1 
