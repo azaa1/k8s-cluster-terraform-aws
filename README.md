@@ -4,7 +4,7 @@
 ### This Repository will help you create Kubernetes Cluster for different Environments in AWS. 
 
 ```
-### Prerequisites:
+Prerequisites:
 ```
 #### AWS EC2 Instance with the following configurations. 
 
