@@ -8,9 +8,16 @@ Prerequisites:
 
 # AWS EC2 Instance with the following configurations. 
   
-  - IAM Role: AdminAccess 
+  - IAM Role: AdminAccess attched to Instance
   - AWS CLI Installed
   - Terraform Installed
-  - kops Installed
-  - kubectl installed 
+  - Kops Installed
+  - Kubectl Installed 
 ```
+
+## NOTE 
+
+##### Each folder has a set of files to create:
+######  - S3-Bucket
+######  - Hosted-Zone
+######  - Cluster 
