@@ -35,3 +35,13 @@ RUN
 -bash create-hosted-zone.sh
 -bash create-cluster-tf.sh
 ```
+
+#### STEP 3
+
+```
+RUN
+
+-terraform init
+-terraform plan 
+-terraform apply 
+```
