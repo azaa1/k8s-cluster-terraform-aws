@@ -1,9 +1,8 @@
-# Kubernetes Cluster on Different Environments
+# Kubernetes Cluster For Different Environments in AWS
 
-### This Repository will help you create Kubernetes Cluster on different Environments. 
+### This Repository will help you create Kubernetes Cluster for different Environments in AWS. 
 
-### Prerequisites: 
+### 'Prerequisites:' 
 
 #### AWS EC2 Instance with the following configurations. 
 
-kubernetes-all
