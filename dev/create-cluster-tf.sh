@@ -9,8 +9,6 @@ kops create cluster --name=devmyterraform.com \
 --topology="private" \
 --bastion="true" \
 --dns="private" \
---zones="eu-west-1a,eu-west-1b,eu-west-1c" \
 --state="s3://devmyterraform.com" \
 --out=. \
 --target=terraform
-
