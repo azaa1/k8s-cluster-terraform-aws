@@ -1,7 +1,7 @@
-# Creating Cluster on STAGE Environment
+# Creating Cluster on Stage Environment
 <!--- -->
 
-#### STEP 1 
+#### STEP 1 : Change the following files based on your configurations. 
 
 ```
 - Change the following lines in files:
@@ -26,7 +26,15 @@
         -- state="s3://<your-s3-bucket-name>"
 ```
 
-#### STEP 2
+#### STEP 2 : Change the permission, to make the file executable, on the following files. 
+
+```
+- chmod 744 create-s3-bucket.sh
+- chmod 744 create-hosted-zone.sh
+- chmod 744 create-cluster-tf.sh
+```
+
+#### STEP 3 : Create S3 bucket, hosted-zone and terraform.tf file. 
 
 ```
 RUN
@@ -36,7 +44,7 @@ RUN
 -bash create-cluster-tf.sh
 ```
 
-#### STEP 3
+#### STEP 3 : Run Terraform to create the Environment.
 
 ```
 RUN
