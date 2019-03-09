@@ -1,4 +1,4 @@
-# Creating Cluster on Dev Environment
+# Creating Cluster on Prod Environment
 <!--- -->
 
 #### STEP 1 : Change the following files based on your configurations. 
