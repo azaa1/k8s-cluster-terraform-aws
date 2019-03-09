@@ -5,6 +5,13 @@
 
 ```
 Prerequisites:
+
+# AWS EC2 Instance with the following configurations. 
+  
+  - Type = CentOS7
+  - IAM Role = AdminAccess 
+  - Terraform Installed
+  - kops Installed
+  - kubectl installed 
 ```
-#### AWS EC2 Instance with the following configurations. 
 
